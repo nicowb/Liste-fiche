@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+  overflow-x: 'auto';
+  /* margin-left: 'auto';
+  margin-right: 'auto'; */
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+.ant-table{ 
+  /* width:'auto'; */
+  /* max-width: 1200px; */
+  /* visibility: hidden; */
+  text-align: right;
+  /* max-width: 730px;*/
+  /* white-space: nowrap; */
+}
+/* .ant-table-fixed-header .ant-table-scroll .ant-table-header{
+  position: relative;
+} */
+.ant-table table {
+  width:min-content;
+}
+.ant-table-thead{
+  cursor: pointer;
+  cursor: hand;
+  /* column-width: 500px;
+  -webkit-column-width: 50% */
+  /* position: inherit; */
+}
+/* .ant-table .ant-table-small .ant-table-scroll-position-left{
+  position: relative; 
+
+} */
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td { 
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 85%;
+  /* width:100px; */
+}
+
+thead[class*="ant-table-thead"] th{
+  color: rgb(242, 143, 11) !important; /* orange PHF */
+}
+.editable-cell {
+  position: relative;
+}
+
+.editable-cell-icon,
+.editable-cell-icon-check {
+  cursor: pointer;
+}
+
+.editable-cell-icon {
+  line-height: 14px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -7px;
+  display: none;
+}
+td:hover .editable-cell-icon {
+  display: inline-block;
+}
+
+.editable-cell-icon:hover,
+.editable-cell-icon-check:hover {
+  color: #108ee9;
+}
+
+.ant-list{
+  height: 15px;
+}
+.ant-list-item-meta{
+  flex: 0 1 22%;
+}
+.ant-list-item-meta-description{
+  color: rgba(211, 104, 4, 0.45);
+  font-size: 14px;
+  line-height: 22px;
+  text-align: left;
+  margin-bottom: 12px;  
+}
+.ant-list-item-meta-title {
+  color: rgba(248, 92, 2, 0.65);
+  margin-bottom: 16px;
+  margin-left: 10%;
+  font-size: 12px;
+  line-height: 22px;
+  /* text-align: left;
+  width: 60%; */
+  text-align: left;
+  min-width: 200px;  
+}
+.ant-slider-handle{
+  width:12px;
+  height:12px;
+}
+/* .ant-slider-handle-1{
+  visibility: hidden;
+} */
+/* .ant-slider-handle-2{
+  visibility: hidden;
+} */
+
+.ant-slider-dot:first-child{
+  visibility: hidden;
+  /* margin-left: -6px; */
+}
+.ant-slider-with-marks {
+  margin-bottom: 28px;
+  width: 60%;
+}
+.ant-slider-mark-text-active {
+  /* color: rgba(0, 0, 0, 0.65); */
+  visibility: hidden;
+}
+.ant-col-sm-24 {
+  height: 30px;
+}
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* index */
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
